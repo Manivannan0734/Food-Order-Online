@@ -11,10 +11,15 @@
         <img id="logo" src="https://github.com/Manivannan0734/firstone/blob/main/assests/Logo.png?raw=true" alt="">
     </div>
     
-    <form action="">
-        <input placeholder="Enter Food Name" type="text">
-        <input id="two-ip" placeholder="Enter Quantity" type="text">
-        <button class="button">
+    <form name="myform" id="frmSubmit" method="post" action="https://script.google.com/macros/s/AKfycbyGsbtCeM_X7iKq4FQRpOPoGqQiXZl4DHiCYlIa0B-OZReyShuHhyXTKqD3YfkydqNEeg/exec">
+
+        <input placeholder="Enter Food Name" name="food" type="text">
+        
+        <input id="two-ip" name="quantity" placeholder="Enter Quantity" type="text">
+       
+        <button id="food" class="button">
+           
+           
             <span class="button__text">
               <span>b</span><span>u</span>y</span><span> </span><span>s</span><span>t</span><span>u</span><span>f</span><span>f</span>
             </span>
@@ -47,6 +52,14 @@
           </button>
     </form>
 
+    
+    <script>
+      jQuery('#frmSubmit').on('submit',function(e){
+        e.preventDefault();
+        
+      })
+    </script>
+<p  >DEVELOPED BY MANI</p>
 
 
 
@@ -155,7 +168,7 @@
     margin-left: 2.5%;
     border: none;
   outline: none;
-  
+  background: linear-gradient(to right, #000000 0%, #ff66cc 100%);
   padding: 10px 50px;
   position: absolute;
   border-radius: 8px;
@@ -180,7 +193,14 @@
   height: 140%;
 }
  
-
+p{
+    font-family: system-ui;
+    color: #fff;
+    position: absolute;
+    display: flex;
+    margin-top: 40.3%;
+    margin-left: 49%;
+}
     </style>
 </body>
 </html>
