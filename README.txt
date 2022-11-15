@@ -5,6 +5,8 @@ HERE WE USED LOTS OF STUFF THAT WILL REALLY SURPRISE YOU
 
 ---------------------->THIS IS ONLY FOR PC<---------------------------
 
+<-----------IMPORTENT NOTE SYMP.HTML, SYMP.CSS, SUBMISSION.JS IS ENOUGH TO RUN THIS PROJECT------------->
+
 
 ------------------SOONLY MOBILE VERSIONN WILLBE LAUNCHED-----------------
 
